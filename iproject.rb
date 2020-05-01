@@ -59,6 +59,3 @@ subjects.each do |subject|
   end
 end
 
-
-# 2350006952-BUVoDTSjE0J4ED4VmkF2P62AdC6RMT1x1ENRkOE
-# TerTvHTtCLHXraQlJkpFmx5oRhNdnnCgNwB5aQyZDv1cN

@@ -12,10 +12,10 @@ class Database
   end
 
   $client = Twitter::REST::Client.new do |config|
-    config.consumer_key    = 'X8Sd2lJr0GXsUFW8RIAACOaTb'
-    config.consumer_secret = '9SBS9MUwrnLhQre6z2JuPKfjRx3Et16u3vzG2nKRBxoPpuOt42'
-    config.access_token        = '2350006952-BUVoDTSjE0J4ED4VmkF2P62AdC6RMT1x1ENRkOE'
-    config.access_token_secret = 'TerTvHTtCLHXraQlJkpFmx5oRhNdnnCgNwB5aQyZDv1cN'
+    config.consumer_key    = ''
+    config.consumer_secret = ''
+    config.access_token        = ''
+    config.access_token_secret = ''
   end
 
   def table
