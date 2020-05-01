@@ -52,7 +52,7 @@ subjects.each do |subject|
     counter.reverse_each do |key, value|
       file.write("#{key}: #{value}\n")
     end
-    file.write('===\n')
+    # file.write('===\n')
     file.close
     system("venv/bin/python3.6 sklonyator/sort.py #{file.path} #{names[subjects.index subject]}")
     system('ruby text2csv.rb')
